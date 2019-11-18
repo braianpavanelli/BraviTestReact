@@ -41,6 +41,8 @@ function IndexHeader() {
             ></img>
             <h1 className="h1-seo">Test Braian Pavanelli</h1>
             <h3>This Layout is Now-Ui-Kit by Creative Tim</h3>
+            <h5>This is a test project and all the branded logos are intelectual property of each own.</h5>
+            <h5>This did not made for commercial proposes.</h5>
           </div>
           <h6 className="category category-absolute">
             Designed by{" "}

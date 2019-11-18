@@ -12,32 +12,23 @@ function TransparentFooter() {
           <ul>
             <li>
               <a
-                href="https://www.creative-tim.com?ref=nukr-transparent-footer"
-                target="_blank"
+                href="/validator-page"
               >
-                Creative Tim
+                Validator
               </a>
             </li>
             <li>
-              <a
-                href="http://presentation.creative-tim.com?ref=nukr-transparent-footer"
-                target="_blank"
-              >
-                About Us
+              <a href="/people-page">
+                People
               </a>
             </li>
             <li>
-              <a
-                href="http://blog.creative-tim.com?ref=nukr-transparent-footer"
-                target="_blank"
-              >
-                Blog
-              </a>
+              <a href="/profile-page">About Me</a>
             </li>
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
+          © {new Date().getFullYear()}, This template was Designed by{" "}
           <a
             href="https://www.invisionapp.com?ref=nukr-transparent-footer"
             target="_blank"
