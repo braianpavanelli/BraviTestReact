@@ -23,3 +23,7 @@ code {
   top: -2px;
   position: relative;
 }
+
+.pill-top {
+  margin-top: 10px;
+}

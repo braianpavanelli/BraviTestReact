@@ -90,19 +90,18 @@ function ProfilePage() {
                     className="nav-pills nav-pills-info"
                     pills
                     role="tablist"
+                  ><NavItem>
+                  <NavLink
+                    className={pills === "1" ? "active" : ""}
+                    href="#pablo"
+                    onClick={e => {
+                      e.preventDefault();
+                      setPills("1");
+                    }}
                   >
-                    <NavItem>
-                      <NavLink
-                        className={pills === "1" ? "active" : ""}
-                        href="#pablo"
-                        onClick={e => {
-                          e.preventDefault();
-                          setPills("1");
-                        }}
-                      >
-                        Consult
-                      </NavLink>
-                    </NavItem>
+                    PPI - MULTITASK
+                  </NavLink>
+                </NavItem>
                     <NavItem>
                       <NavLink
                         className={pills === "2" ? "active" : ""}
@@ -112,7 +111,7 @@ function ProfilePage() {
                           setPills("2");
                         }}
                       >
-                        Programmers
+                        Consult
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -124,7 +123,7 @@ function ProfilePage() {
                           setPills("3");
                         }}
                       >
-                        Capgemine
+                        Programmers
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -136,7 +135,7 @@ function ProfilePage() {
                           setPills("4");
                         }}
                       >
-                        Mazzatech
+                        Capgemine
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -148,7 +147,7 @@ function ProfilePage() {
                           setPills("5");
                         }}
                       >
-                        FCamara
+                        Mazzatech
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -160,7 +159,7 @@ function ProfilePage() {
                           setPills("6");
                         }}
                       >
-                        HP
+                        FCamara
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -172,7 +171,7 @@ function ProfilePage() {
                           setPills("7");
                         }}
                       >
-                        Chilli
+                        HP
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -184,6 +183,18 @@ function ProfilePage() {
                           setPills("8");
                         }}
                       >
+                        Chilli
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink
+                        className={pills === "9" ? "active pill-top" : "pill-top"}
+                        href="#pablo"
+                        onClick={e => {
+                          e.preventDefault();
+                          setPills("9");
+                        }}
+                      >
                         BlueMaxx
                       </NavLink>
                     </NavItem>
@@ -191,7 +202,36 @@ function ProfilePage() {
                 </div>
               </Col>
               <TabContent className="gallery" activeTab={"pills" + pills}>
-                <TabPane tabId="pills1">
+              <TabPane tabId="pills1">
+                  <Col className="ml-auto mr-auto" md="10">
+                    <Row className="collections">
+                      <Col md="2"></Col>
+                      <Col md="8">
+                        <Card>
+                          <CardBody>
+                            <CardTitle>
+                              <h4>PPI - MULTITASK</h4>
+                            </CardTitle>
+                            <CardSubtitle>
+                              <h5>
+                                Full Stack .NET Developer - Current from
+                                ABR/2020
+                              </h5>
+                            </CardSubtitle>
+                            <CardText>
+                            Support and improvement of customized projects in ASP.NET MVC 5 C #, 
+                            with front-end in Angular JS. SQL Server (functions, queries and data analysis). 
+                            EMI Designer (Reports and Graphs). MES production control system for Shop Floor 
+                            and Material Movements. Remote Work in Araraquara / SP.
+                            </CardText>
+                          </CardBody>
+                        </Card>
+                      </Col>
+                      <Col md="2"></Col>
+                    </Row>
+                  </Col>
+                </TabPane>
+                <TabPane tabId="pills2">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="2"></Col>
@@ -203,8 +243,8 @@ function ProfilePage() {
                             </CardTitle>
                             <CardSubtitle>
                               <h5>
-                                Full Stack .NET Developer - Current from
-                                FEB/2019
+                                Full Stack .NET Developer - From FEV/2019 to
+                                MAR/2020
                               </h5>
                             </CardSubtitle>
                             <CardText>
@@ -224,7 +264,7 @@ function ProfilePage() {
                     </Row>
                   </Col>
                 </TabPane>
-                <TabPane tabId="pills2">
+                <TabPane tabId="pills3">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="2"></Col>
@@ -255,7 +295,7 @@ function ProfilePage() {
                     </Row>
                   </Col>
                 </TabPane>
-                <TabPane tabId="pills3">
+                <TabPane tabId="pills4">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="2"></Col>
@@ -285,7 +325,7 @@ function ProfilePage() {
                     </Row>
                   </Col>
                 </TabPane>
-                <TabPane tabId="pills4">
+                <TabPane tabId="pills5">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="2"></Col>
@@ -313,7 +353,7 @@ function ProfilePage() {
                     </Row>
                   </Col>
                 </TabPane>
-                <TabPane tabId="pills5">
+                <TabPane tabId="pills6">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="4"></Col>
@@ -340,7 +380,7 @@ function ProfilePage() {
                     </Row>
                   </Col>
                 </TabPane>
-                <TabPane tabId="pills6">
+                <TabPane tabId="pills7">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="2"></Col>
@@ -368,7 +408,7 @@ function ProfilePage() {
                     </Row>
                   </Col>
                 </TabPane>
-                <TabPane tabId="pills7">
+                <TabPane tabId="pills8">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="2"></Col>
@@ -396,7 +436,7 @@ function ProfilePage() {
                     </Row>
                   </Col>
                 </TabPane>
-                <TabPane tabId="pills8">
+                <TabPane tabId="pills9">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="2"></Col>

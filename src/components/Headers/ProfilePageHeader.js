@@ -46,7 +46,7 @@ function ProfilePageHeader() {
               <p>Public Repositories</p>
             </div>
             <div className="social-description">
-              <h2>11</h2>
+              <h2>13</h2>
               <p>Years of experience</p>
             </div>
             <div className="social-description">
